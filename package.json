@@ -1,0 +1,13 @@
+{
+  "name": "stripe-auditor",
+  "version": "1.0.0",
+  "description": "Free Stripe billing audit tool — 5 checks: retries, stuck subs, uncollected invoices, failed payments, recovery potential",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "stripe": "^17.0.0"
+  }
+}

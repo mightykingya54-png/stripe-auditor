@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: stripe-auditor
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      # Set PADDLE_API_KEY, PADDLE_PRICE_ID, PADDLE_CLIENT_TOKEN in Render dashboard
