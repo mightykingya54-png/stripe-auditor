@@ -62,7 +62,7 @@ export function setupAuditRoutes(app, deps) {
 
     <div class="card">
       <h2>Enter your Stripe secret key</h2>
-      <p>Found in <a href="https://dashboard.stripe.com/apikeys" target="_blank" style="color:#6366f1">Stripe Dashboard → API Keys</a>. Use a <strong>restricted key</strong> with read-only permissions if preferred.</p>
+      <p>Found in <a href="https://dashboard.stripe.com/apikeys" target="_blank" style="color:#6366f1">Stripe Dashboard → API Keys</a>. Use a <strong>Secret key</strong> with read-only permissions if preferred.</p>
       ${errorMsg}
       <form id="auditForm" action="/audit/scan" method="POST">
         <input type="password" name="key" placeholder="sk_live_... or sk_test_..." required autocomplete="off" spellcheck="false" />
