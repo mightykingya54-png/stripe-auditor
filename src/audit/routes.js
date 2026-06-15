@@ -72,7 +72,7 @@ export function setupAuditRoutes(app, deps) {
       <p class="trust">🔒 Key is sent once over HTTPS. Not stored. Not logged.</p>
     </div>
 
-    <div class="footer">Stripe Auditor by Yashoraj</div>
+    <div class="footer">Stripe Auditor</div>
   </div>
   <script>
     document.getElementById('auditForm').addEventListener('submit', function(e) {
